@@ -50,6 +50,7 @@ Chatwoot supports the following conversation channels:
 
 And more.
 
+
 Other features include:
 
 - **CRM**: Save all your customer information right inside Chatwoot, use contact notes to log emails, phone calls, or meeting notes.
