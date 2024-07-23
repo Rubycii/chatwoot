@@ -7,7 +7,7 @@ RSpec.describe Account do
   it { is_expected.to validate_numericality_of(:auto_resolve_duration).is_less_than_or_equal_to(999) }
 
   it { is_expected.to have_many(:users).through(:account_users) }
-  it { is_expected.to have_many(:account_users) }
+  it { is_expected.not_to have_many(:account_users) }
   it { is_expected.to have_many(:inboxes).dependent(:destroy_async) }
   it { is_expected.to have_many(:conversations).dependent(:destroy_async) }
   it { is_expected.to have_many(:contacts).dependent(:destroy_async) }
