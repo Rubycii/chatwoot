@@ -47,7 +47,6 @@ Chatwoot supports the following conversation channels:
  - **SMS**: Connect your Twilio SMS account and reply to the SMS queries in Chatwoot.
  - **API Channel**: Build custom communication channels using our API channel.
  - **Email**: Forward all your email queries to Chatwoot and view it in our integrated dashboard.
-
 And more.
 
 Other features include:
